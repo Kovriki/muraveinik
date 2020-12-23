@@ -25,6 +25,63 @@ body {
     height: 100%;
     display: block;
     opacity: 0.5; */
+
+/* //// */
+
+
+
+
+
+  .zagolovok_1{
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 3vw;
+    /* padding-left: .5vw; */
+    padding-left: 20.5vw;
+    color: white;
+    width: 20vw;
+    height: 30vw;
+      opacity: 0;
+  }
+
+
+
+.btn22_main{
+  left: 5.3%;
+  top: 33.4%;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+.btn22 {
+  /* left: 5.3%;
+  top: 33.4%;
+  position: absolute; */
+  width: 137px;
+  height: 137px;
+  display: inline-block;
+  background-image: url("../images/22.svg");
+}
+.btn22b {
+      width: 200px;
+      height: 200px;
+      display: inline-block;
+      animation: lr 3s linear infinite;
+      background: url("../images/22_1.svg") no-repeat;
+
+}
+
+.btn22:hover .zagolovok_1 {
+  opacity: 1;
+  transition: all 2s;}
+
+
+
+
+
+/* //// */
+
 .letters {
   /* display: relative; */
 }
@@ -127,7 +184,7 @@ display: inline-block;
   display: inline-block;
   animation: lr 3s linear infinite;
 }
-.btn22 {
+/* .btn22 {
   left: 5.3%;
   top: 33.4%;
   position: absolute;
@@ -139,7 +196,7 @@ display: inline-block;
   position: absolute;
   display: inline-block;
   animation: lr 3s linear infinite;
-}
+} */
 .btn25 {
   left: 14.5%;
   top: 40.4%;
